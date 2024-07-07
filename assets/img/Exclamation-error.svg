@@ -1,0 +1,15 @@
+<svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2780_10939">
+			<rect id="Exclamation circle" rx="-0.625000" width="18.750000" height="18.750000" transform="translate(0.625000 0.625000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g opacity="0.240000">
+		<g clip-path="url(#clip2780_10939)">
+			<path id="Icon" d="M18 10C18 14.41 14.41 18 10 18C5.58 18 2 14.41 2 10C2 5.58 5.58 2 10 2C14.41 2 18 5.58 18 10ZM11 14C11 14.55 10.55 15 10 15C9.44 15 9 14.55 9 14C9 13.44 9.44 13 10 13C10.55 13 11 13.44 11 14ZM10 5C9.44 5 9 5.44 9 6L9 10C9 10.55 9.44 11 10 11C10.55 11 11 10.55 11 10L11 6C11 5.44 10.55 5 10 5Z" fill="#9A273B" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+	</g>
+</svg>
