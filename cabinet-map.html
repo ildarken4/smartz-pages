@@ -119,58 +119,267 @@
     	<div class="preloader"></div>
     </div>
     <!-- /preloader-->
-    <div class="auth-layout">
+    <div class="layout">
 
-        <header class="auth-header">
-            <div class="container">
-                <div class="auth-header__in">
-                    <a href="#" class="auth-header__back">
-                        <svg width="32" height="32">
-                            <use xlink:href="#chevron-left"></use>
-                        </svg>
-                    </a>
-                    <a href="home.html" class="auth-header__logo">
-                        <svg width="174" height="48">
-                            <use xlink:href="#logo"></use>
-                        </svg>
-                    </a>
+        <header class="header">
+            <div class="header-content">
+                <div class="header-top__wrapper">
+                    <div class="container-fluid">
+                        <div class="header-top d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <div class="header-top__left d-flex align-items-center gap-32">
+                                    <button class="link" data-fancybox data-src="#popup-location">
+                                        <svg>
+                                            <use xlink:href="#location"></use>
+                                        </svg>
+                                        <span>Москва и Московская область</span>
+                                    </button>
+                                    <a href="job.html" class="link d-none d-lg-inline-block">
+                                        <svg>
+                                            <use xlink:href="#case"></use>
+                                        </svg>
+                                        <span>Вакансии</span>
+                                    </a>
+                                </div>
+                            </div>
+        
+                            <!--<div class="d-flex align-items-center gap-24">-->
+                            <!--    <div class="header-messenger__wrapper">-->
+                            <!--        <div class="header-messenger__list">-->
+                            <!--            <a href="#" class="header-messenger mr-lg-2">-->
+                            <!--                <svg  width="32" height="32">-->
+                            <!--                    <use xlink:href="#whatsapp"></use>-->
+                            <!--                </svg>-->
+                            <!--            </a>-->
+        
+                            <!--            <a href="#" class="header-messenger">-->
+                            <!--                <svg width="32" height="32">-->
+                            <!--                    <use xlink:href="#telegram"></use>-->
+                            <!--                </svg>-->
+                            <!--            </a>-->
+                            <!--        </div>-->
+                            <!--    </div>-->
+        
+                            <!--    <button class="link" data-fancybox data-src="#popup-call">-->
+                            <!--        <svg>-->
+                            <!--            <use xlink:href="#tel"></use>-->
+                            <!--        </svg>-->
+                            <!--        <span>Заказать звонок</span>-->
+                            <!--    </button>-->
+                            <!--</div>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom__wrapper">
+                    <div class="container-fluid">
+                        <div class="header-bottom">
+                            <div class="d-flex align-items-center">
+                                <button class="burger js-menu-toggle">
+                                    <svg><use xlink:href="#burger"></use></svg>
+                                    <svg><use xlink:href="#cross-1"></use></svg>
+                                </button>
+                                <a href="home.html" class="header-logo">
+                                    <svg width="174" height="48">
+                                        <use xlink:href="#logo"></use>
+                                    </svg>
+                                </a>
+        
+                            </div>
+        
+                            <div class="header-nav__wrapper">
+                                <div class="header-nav">
+                                    <div class="header-nav__link-wrapper">
+                                        <span href="#" class="header-nav__link js-toggle-dropdown">Услуги</span>
+                                        <button class="header-nav__link-button js-toggle-dropdown">
+                                            <svg width="20" height="20">
+                                                <use xlink:href="#chevron-down"></use>
+                                            </svg>
+                                        </button>
+        
+                                        <div class="header-nav__dropdown">
+                                            <div class="header-nav__dropdown-list">
+                                                <a href="landing-2.html" class="header-nav__dropdown-link">Займ под залог ПТС</a>
+                                                <a href="landing-3.html" class="header-nav__dropdown-link">Займ под залог авто</a>
+                                                <a href="landing-4.html" class="header-nav__dropdown-link">Займ под залог спецтехники</a>
+                                                <a href="landing-1.html" class="header-nav__dropdown-link">Займ под залог коммерческого транспорта</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-nav__link-wrapper">
+                                        <span href="#" class="header-nav__link js-toggle-dropdown">Клиентам</span>
+                                        <button class="header-nav__link-button js-toggle-dropdown">
+                                            <svg width="20" height="20">
+                                                <use xlink:href="#chevron-down"></use>
+                                            </svg>
+                                        </button>
+        
+                                        <div class="header-nav__dropdown">
+                                            <div class="header-nav__dropdown-list">
+                                                <a href="payments.html" class="header-nav__dropdown-link">Внесение платежей</a>
+                                                <a href="expiration.html" class="header-nav__dropdown-link">Просрочка</a>
+                                                <a href="faq.html" class="header-nav__dropdown-link">Вопрос-ответ</a>
+                                                <a href="documents.html" class="header-nav__dropdown-link">Документы</a>
+                                                <a href="details.html" class="header-nav__dropdown-link">Реквизиты</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-nav__link-wrapper">
+                                        <a href="about.html" class="header-nav__link">О компании</a>
+                                    </div>
+                                    <div class="header-nav__link-wrapper">
+                                        <span class="header-nav__link js-toggle-dropdown">Пресс-центр</span>
+                                        <button class="header-nav__link-button js-toggle-dropdown">
+                                            <svg width="20" height="20">
+                                                <use xlink:href="#chevron-down"></use>
+                                            </svg>
+                                        </button>
+        
+                                        <div class="header-nav__dropdown">
+                                            <div class="header-nav__dropdown-list">
+                                                <a href="news.html" class="header-nav__dropdown-link">Новости и статьи</a>
+                                                <a href="media.html" class="header-nav__dropdown-link">Для прессы</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-nav__link-wrapper d-lg-none">
+                                        <a href="job.html" class="header-nav__link">Вакансии</a>
+                                    </div>
+                                    <div class="header-nav__link-wrapper">
+                                        <a href="contacts.html" class="header-nav__link">Контакты</a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <button class="button button-icon button-secondary button--sm">
+                                <svg width="24" height="24">
+                                    <use xlink:href="#cabinet"></use>
+                                </svg>
+                                <span>Личный кабинет</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="header-menu">
+                    <div class="container">
+                        <div class="header-menu__in">
+                            <div class="row header-menu__nav-wrapper">
+                                <div class="col-sm-8 offset-sm-2">
+                                    <div class="header-menu__nav"></div>
+                                </div>
+                            </div>
+                            <!--<div class="header-menu__messengers"></div>-->
+                        </div>
+                    </div>
+        
                 </div>
             </div>
         </header>
-        <main role="main" class="auth-layout__in">
+        <main role="main" class="layout__in">
 
-            <section class="welcome h-screen">
+            <div class="section">
+                <div class="container">
+                    <div class="row row-gap-24">
+                        <div class="col-xl-8">
             
-                <!-- 
-                
-                https://www.figma.com/design/TAlYMb2uuTiBIzMCMCWqTa/Smart-Zaym-—-Личный-кабинет?node-id=2982-11418&t=A3ffcAb8krSpdjTY-11
-                
-                -->
-                
-                <div class="auth-form">
-                    <div class="title-h45 font-medium w-100 tac ls08 lh12 pt-40">Подтвердите номер</div>
-                    <div class="text4 w-100 tac lh12">Мы отправили вам SMS с кодом на номер <div>+7 992 564-00-11</div></div>
+                            <div class="title-h2 ls15 spacing-2 font-medium lh11">
+                                Карта кабинета
+                            </div>
+            
+                            <div class="d-flex flex-column align-items-start text2 row-gap-8">
+                                <div class="title-h3 ls15 spacing-2 font-medium lh11">Новые страницы</div>
+                                <a href="qr.html" class="link-underline">Переход на мобильный интерфейс</a>
+                                <a href="qr-sms-link.html" class="link-underline">Переход на мобильный интерфейс - SMS отправлено</a>
+                                <a href="qr-sms-send.html" class="link-underline">Переход на мобильный интерфейс - отправить SMS повторно</a>
+                                <br>
+                                <br>
+                                <br>
+                                <a href="signup-new.html" class="link-underline">Зарегистрируйтесь</a>   
+                                <a href="signup-confirm.html" class="link-underline">Подтвердите номер</a>   
+                                <a href="flow-start.html" class="link-underline">Стартовый баннер</a>   
+                                <a href="flow-personal.html" class="link-underline">Основная информация</a> 
+                                <a href="flow-files.html" class="link-underline">Загрузка фото</a> 
+                                <a href="flow-info.html" class="link-underline">Дополнительная информация</a> 
+                                <a href="flow-car.html" class="link-underline">Фото автомобиля</a> 
+                                <a href="flow-registered.html" class="link-underline">Профиль зарегистрирован</a> 
+                                <a href="flow-credit.html" class="link-underline">Заявка на займ</a> 
+                                <a href="flow-considering.html" class="link-underline">Заявка рассматривается</a> 
+                                <br>
+                                <br>
+                                <a href="new-client.html" class="link-underline">Новый клиент регистрируется</a> 
+                                <br>
+                                <br>
+                                <a href="welcome-back.html" class="link-underline">Добро пожаловать обратно</a> 
+            
+                                <div class="spacing-0"></div>
             
             
-                    <div class="form-field__wrapper spacing-0 w-100">
-                        <div class="form-field form-field--phone form-field--bg">
-                            <input type="text" id="signup-sms" class="form-field__input" placeholder="Код из SMS">
+                                <div class="title-h3 ls15 spacing-2 font-medium lh11">Старые страницы</div>
+                                <a href="signin.html" class="link-underline">Авторизация</a>
+                                <br>
+                                
+                                <a href="signup-1.html" class="link-underline">Регистрация шаг 1.</a>
+                                <a href="signup-1-2.html" class="link-underline">Регистрация шаг 1.1</a>
+                                <br>
+                                <a href="signup-2.html" class="link-underline">Регистрация шаг 1.2</a>
+                                <a href="signup-3.html" class="link-underline">Регистрация шаг 1.3</a>
+                                <a href="signup-4.html" class="link-underline">Регистрация шаг 1.4</a>
+                                <br>
+                                <a href="profile.html" class="link-underline">Профиль шаг 1.</a>
+                                <span class="color-dark-500 text4">Десктоп модалка "сделать фото" открывается по "Изменить/Добавить" на стр. <a href="profile.html" class="link-underline">Профиль шаг1.</a></span>
+                                <span class="color-dark-500 text4">Мобильная модалка "ЭПТС" открывается по по "Изменить/Добавить" на стр. <a href="profile.html" class="link-underline">Профиль шаг1.</a> > "Сделать Фото" > "продолжить". На самой модалке с фото ЭПТС нажать на "припрепить" - появится модалка с документом</span>
+                                <br>
+                                <a href="profile-2.html" class="link-underline">Профиль шаг 2.</a>
+                                <a href="profile-3.html" class="link-underline">Профиль шаг 3.</a>
+                                <br>
+                                <a href="credit.html" class="link-underline">Заявка шаг 1.</a>
+                                <a href="credit-progress.html" class="link-underline">Заявка шаг 2.</a>
+                                <br>
+                                <a href="credit-info.html" class="link-underline">Выдача займа. Инфа о заемщике</a>
+                                <a href="credit-cancel.html" class="link-underline">Выдача займа. Отклонено</a>
+                                <a href="credit-success.html" class="link-underline">Выдача займа. Подтверждено</a>
+                                <hr class="w-100 color-purple">
+                                <br>
+                                <a href="appeals.html" class="link-underline">Обращения</a>
+                                <a href="appeal-passed.html" class="link-underline">Обращение - завершено</a>
+                                <a href="appeal-progress.html" class="link-underline">Обращение - в работе</a>
+                                <br>
+                                <a href="appeal-create.html" class="link-underline">Подать обращение</a>
+                                <a href="appeal-create-success.html" class="link-underline">Подать обращение - успех</a>
+                                <br>
+                                <a href="credit-create-1.html" class="link-underline">Новый займ. Шаг 1</a>
+                                <a href="credit-create-2.html" class="link-underline">Новый займ. Шаг 2</a>
+                                <br>
+                                <a href="my-profile.html" class="link-underline">Мой профиль.</a>
+                                <a href="my-profile-1.html" class="link-underline">Мой профиль. Редактирование. Трудовая деятельность.</a>
+                                <a href="my-profile-2.html" class="link-underline">Мой профиль. Редактирование. Фото паспорта.</a>
+                                <a href="my-profile-3.html" class="link-underline">Мой профиль. Редактирование. Фото автомобиля.</a>
+                                <hr class="w-100 color-purple">
+                                <a href="credits.html" class="link-underline">Мои займы.</a>
+                                <a href="credit-page.html" class="link-underline">Страница займа. Общая</a>
+                                <div class="color-dark-500 text4 mb-2">
+                                    Модалка Внесение платежа - кнопка "Внесение платежа". Дальше модалки со статусом (Платеж успешно внесен/Отклонен и тд) открываются по эшкен кнопкам в самой модалке ("оплатить" и тд), открываются одна за другой.)
+                                </div>
+                                <div class="color-dark-500 text4 mb-2">
+                                    Модалка Внесение платежа и пролонгировать - кнопка "Внести платеж и продлить займ"
+                                </div>
+                                <div class="color-dark-500 text4 mb-2">
+                                    Модалка Продлить займ - кнопка "Продлить займ"
+                                </div>
+                                <br>
+                                <a href="credit-page-active.html" class="link-underline">Страница займа. Активный</a>
+                                <a href="credit-page-out.html" class="link-underline">Страница займа. Погашенный</a>
+                                <a href="credit-page-progress.html" class="link-underline">Страница займа. На рассмотрении</a>
+                                <br>
+                                <a href="payment-1.html" class="link-underline">Досрочное погашение. Шаг 1</a>
+                                <a href="payment-2.html" class="link-underline">Досрочное погашение. Шаг 2</a>
+                                <a href="payment-3.html" class="link-underline">Досрочное погашение. Полное. Успех</a>
+                                <a href="payment-4.html" class="link-underline">Досрочное погашение. Частичное. Успех</a>
+                            </div>
                         </div>
-                        <div class="form-field__description">Отправить код повторно можно через 55 сек.</div>
-                    </div>
-            
-                    <button class="button button-primary button--sm w-100 mt-8" disabled>Подтвердить</button>
-                    
-                    <div class="w-100 tac text2 spacing-3">
-                        <a href="signup-new.html" class="link-purple">
-                            Изменить номер
-                        </a>
                     </div>
                 </div>
-            
-            </section>
-            
-            
+            </div>
 
         </main>
 
