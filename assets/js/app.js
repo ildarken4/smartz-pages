@@ -28256,20 +28256,41 @@ $(() => {
 
 // new scripts - 07/2024
 
-const exampleButtons = document.querySelectorAll('.js-photo-example');
+    const exampleButtons = document.querySelectorAll('.js-photo-example');
 
-if(exampleButtons) {
-    const exampleModal = document.querySelector('.photo-example-modal');
-    const exampleClose = document.querySelector('.popup-close');
-    exampleButtons.forEach(function(exampleButton) {
-        exampleButton.addEventListener('click', function() {
-            exampleModal.classList.add('active');
+    if(exampleButtons) {
+        const exampleModal = document.querySelector('.photo-example-modal');
+        const exampleClose = document.querySelector('.popup-close');
+        exampleButtons.forEach(function(exampleButton) {
+            exampleButton.addEventListener('click', function() {
+                exampleModal.classList.add('active');
+            })
         })
-    })
-    if(exampleClose) {
-        exampleClose.addEventListener('click', function() {
-            exampleModal.classList.remove('active');
-        })
+        if(exampleClose) {
+            exampleClose.addEventListener('click', function() {
+                exampleModal.classList.remove('active');
+            })
 
+        }
     }
-}
+
+    // smooth corners
+
+    if (CSS && 'paintWorklet' in CSS) CSS.paintWorklet.addModule('https://unpkg.com/smooth-corners');
+
+    const sbpTrigger = document.querySelector('.sbp-modal-open');
+
+    if(sbpTrigger) {
+        const sbpModal = document.querySelector('.sbp-modal');
+        const sbpClose = sbpModal.querySelector('.close-button');
+       
+        sbpTrigger.addEventListener('click', function() {
+            sbpModal.classList.add('active');
+        })
+        if(sbpClose) {
+            sbpClose.addEventListener('click', function() {
+                sbpModal.classList.remove('active');
+            })
+
+        }
+    }
