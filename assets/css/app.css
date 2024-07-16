@@ -24060,6 +24060,7 @@ header {
   color: rgba(10, 41, 21, 0.7);
   font-size: 15px;
   gap: 6px;
+  line-height: 13px;
   --smooth-corners: 20;
   mask-image: paint(smooth-corners);
   -webkit-mask-image: paint(smooth-corners);
@@ -24240,8 +24241,8 @@ section .auth-form .form-gender .select2-container--default .select2-selection--
 }
 
 section .auth-form .auto-number {
-  -ms-flex-preferred-size: 65%;
-      flex-basis: 65%;
+  -ms-flex-preferred-size: 62%;
+      flex-basis: 62%;
 }
 
 section .auth-form .auto-number input {
@@ -24249,8 +24250,8 @@ section .auth-form .auto-number input {
 }
 
 section .auth-form .auto-region {
-  -ms-flex-preferred-size: 35%;
-      flex-basis: 35%;
+  -ms-flex-preferred-size: 38%;
+      flex-basis: 38%;
   margin-left: -16px;
   border-left: 1px solid #dee2e6;
   position: relative;
@@ -24557,9 +24558,13 @@ section .auth-form .auto-region .flag__text {
   cursor: pointer;
 }
 
+.add-file img {
+  opacity: .7;
+}
+
 .add-file span {
   height: 16px;
-  color: #6f42c1;
+  color: #732DA9;
 }
 
 .form-field--sms {
@@ -25614,7 +25619,7 @@ input[type="number"] {
 }
 
 .form-field--bg .form-field__input, .form-field--bg .form-field__textarea {
-  font-family: "TTFirsNeue-Medium";
+  font-family: "TTFirsNeue-Regular";
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #F2F1F0;
