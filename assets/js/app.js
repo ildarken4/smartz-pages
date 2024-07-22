@@ -28294,3 +28294,20 @@ $(() => {
 
         }
     }
+
+    //Масштабирование страниц при изменении ширины экрана
+
+    // const authLayout = document.querySelector('.auth-layout');
+
+    // if(authLayout) {
+        
+    //     scaleAuthLayout();
+
+    //     function scaleAuthLayout () {
+    //         let pageWidth = window.innerWidth;
+    //         let scaleWidth = pageWidth / 360;
+    //         authLayout.style.transform = 'scale(' + scaleWidth+ ')'
+    //     }
+        
+    //     window.addEventListener('resize', scaleAuthLayout);
+    // }

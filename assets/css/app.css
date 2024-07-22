@@ -23996,6 +23996,12 @@ header {
   min-width: 100vw;
 }
 
+.w-fit {
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+}
+
 .pt-64 {
   padding-top: 64px;
 }
@@ -24016,6 +24022,11 @@ header {
 .py-16 {
   padding-top: 16px !important;
   padding-bottom: 16px !important;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .mt-16 {
@@ -24309,6 +24320,12 @@ section .auth-form .auto-region .flag__text {
   line-height: 20px;
 }
 
+.exclamation span a {
+  display: block;
+  color: #50729b;
+  font-size: 18px;
+}
+
 .exclamation-red {
   -webkit-box-align: start;
       -ms-flex-align: start;
@@ -24330,6 +24347,11 @@ section .auth-form .auto-region .flag__text {
 
 .exclamation-small span {
   font-size: 11.5px;
+}
+
+.exclamation.px-16 {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .files-form {
